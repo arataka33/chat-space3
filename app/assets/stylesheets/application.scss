@@ -3,8 +3,9 @@
 @import "font-awesome-sprockets";
 @import "./font-awesome";
 @import "main_chat.scss";
-@import "side_bar.scss";
+@import "modules/side_bar.scss";
 @import "modules/user";
 @import "config/colors";
-@import "modules/flash"
+@import "modules/flash";
+@import "modules/group";
 
