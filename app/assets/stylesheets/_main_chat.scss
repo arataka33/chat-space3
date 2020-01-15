@@ -10,11 +10,11 @@
     padding: 0 40px;
     display: flex;
     justify-content: space-between;
-    border-bottom: solid 1px  #eee;
+    border-bottom: 1px solid #eee;
     overflow: scroll;
     &__left-box {
       margin-top: 35px;
-      &__current-proup {
+      &__current-group {
         font-size: 20px;
         color: #333333;
         margin-bottom: 15px;
@@ -73,17 +73,17 @@
     padding: 20px 50px 20px 40px;
     .new_message {
       display: flex;
-      .input-box {
+    .input-box {
+      width: 100%;
+      display: flex;
+      position: relative;
+      &__text {
+        background-color: white;
+        height: 50px;
         width: 100%;
-        display: flex;
-        position: relative;
-        &__text {
-          background-color: white;
-          height: 50px;
-          width: 100%;
-          padding-right: 0 40px 0 10px;
-          border-style: none;
-        }
+        padding-right: 0 40px 0 10px;
+        border-style: none;
+      }
         &__image {
           cursor: pointer;
           position: absolute;
@@ -93,7 +93,7 @@
             display: none;
           }
         }
-      }
+    }
       .submit-btn {
         background-color: #38aef0;
         border: none;
