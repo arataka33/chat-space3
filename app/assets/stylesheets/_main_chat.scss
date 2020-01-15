@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  }
+
 .main_chat {
   width: calc(100vw - 300px);
   float: left;
@@ -35,7 +39,7 @@
   }
   .messages {
     height: calc(100vh - 190px);
-    padding: 46px 40px 0;
+    padding: 46px 40px ;
     background-color: #fafafa;
     overflow: scroll;
     .message {
@@ -57,7 +61,7 @@
         &__content {
           color: #434A54;
           font-size: 14px;
-          margin-bottom: 40px;
+          margin-bottom: 10px;
         }
       }
     }
